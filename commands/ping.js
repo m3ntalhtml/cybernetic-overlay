@@ -15,5 +15,5 @@ const embed = new Discord.RichEmbed()
   /*
   * Wew
   */
-    message.channel.send({embed}).catch(console.error);
+    message.channel.send("pong (command wip)").catch(console.error);
 }
