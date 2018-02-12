@@ -1,4 +1,4 @@
-exports.run = (client, message, args) => {
+exports.run = (client, Discord, message, args) => {
 const embed = new Discord.RichEmbed()
   .setTitle("Ping")
   .setAuthor(message.author.username, message.author.avatarURL)
