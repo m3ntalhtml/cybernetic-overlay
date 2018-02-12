@@ -1,4 +1,4 @@
-exports.run = (client, message, args) => {
+exports.run = (client, Discord, message, args) => {
 var sayings = ["It is certain",
 										"It is decidedly so",
 										"Without a doubt",
