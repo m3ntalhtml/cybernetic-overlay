@@ -21,6 +21,22 @@ var sayings = ["It is certain",
 										"Very doubtful"];
 
 		 var result = Math.floor((Math.random() * sayings.length) + 0);
-		 var ResultEmbed = {"title": "8ball Answer", "description": sayings[result], "color": 01301313, "thumbnail": "http://www.pngmart.com/files/3/8-Ball-Pool-Transparent-PNG.png"};
-     message.reply({embed: ResultEmbed});
+const embed = new Discord.RichEmbed()
+  .setTitle("8ball")
+  .setAuthor(message.author.username, message.author.avatarURL)
+  /*
+   * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
+   */
+  .setColor([179, 179, 255])
+  .setDescription("Did you forget about me? Your answer is " + sayings[result] + ".")
+  .setFooter("Evisocrat", message.author.defaultAvatarURL)
+  .setThumbnail("https://images.emojiterra.com/emojione/v2/512px/1f3b1.png")
+  /*
+   * Takes a Date object, defaults to current date.
+   */
+  .setTimestamp()
+  /*
+  * Wew
+  */
+    message.channel.send({embed}).catch(console.error);
      }
