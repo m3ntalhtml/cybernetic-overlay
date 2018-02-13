@@ -16,10 +16,10 @@ const embed = new Discord.RichEmbed()
   /*
   * I don't bite, and my commands don't either! So, let's make some fields.
   */
-    .addField("Statistics", "The prefix for my tricks is ;\nYou are on the shard " + client.shard.id + "/"+ client.options.shardCount + ".\n And that's all I have, currently.");
-    .addField("Informational", ";ping - Displays the current heartbeat.\n **Lord m3nt8l has been hiding some secrets**", true);
-    .addField("Answers", ";8ball - Shake the 8ball.\n **Lord m3nt8l has been hiding some secrets**", true);
-    .addField("Fun", "**Lord m3nt8l has been hiding some secrets**", true);
+    .addField("Statistics", "The prefix for my tricks is ;\nYou are on the shard " + client.shard.id + "/"+ client.options.shardCount + ".\n And that's all I have, currently.")
+    .addField("Informational", ";ping - Displays the current heartbeat.\n **Lord m3nt8l has been hiding some secrets**", true)
+    .addField("Answers", ";8ball - Shake the 8ball.\n **Lord m3nt8l has been hiding some secrets**", true)
+    .addField("Fun", "**Lord m3nt8l has been hiding some secrets**", true)
     .addField("Music", "idk", true);
   /*
   * Wew
