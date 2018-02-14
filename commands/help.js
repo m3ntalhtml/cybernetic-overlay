@@ -24,6 +24,7 @@ const embed = new Discord.RichEmbed()
   /*
   * Wew
   */
+    message.reply("I've sent some help to your DM inbox! See you soon. 🐶").catch(console.error);
     message.react(🐶).catch(console.error);
     message.author.send({embed}).catch(console.error);
 }
