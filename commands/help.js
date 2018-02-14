@@ -24,5 +24,6 @@ const embed = new Discord.RichEmbed()
   /*
   * Wew
   */
+    message.react(🐶).catch(console.error);
     message.author.send({embed}).catch(console.error);
 }
